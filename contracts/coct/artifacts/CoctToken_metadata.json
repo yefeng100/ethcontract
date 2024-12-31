@@ -548,11 +548,11 @@
 			]
 		},
 		"contracts/coct/coctToken.sol": {
-			"keccak256": "0x6a03efaa0e1e7a627e4d8ba55e5f3ba8ff32c993436297c385ab5adaed0a27d6",
+			"keccak256": "0x3efc564e0c9cd3245c44b20e20d9f2a892f69f3518d000cbba67959c8933c24a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2f43226568effdda019c5dfe708b495f0aa7bf700fd8bc395a86be48144ccd41",
-				"dweb:/ipfs/QmQnqgbb1vUacoxvQgUuBvPgi8zxy1zdDYEvJJreCVm2iN"
+				"bzz-raw://5b3ce15588ebfa29fab049e97ea56ee6c1dfc1caeb2bc465f9d0385183bcc192",
+				"dweb:/ipfs/QmdgpMFCNkspitPukVmc8eSSy3Lo3TzR6T5Y2Y4i6SjYKk"
 			]
 		}
 	},

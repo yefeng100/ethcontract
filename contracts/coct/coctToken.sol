@@ -18,6 +18,8 @@ contract CoctToken is ERC20 {
     constructor(string memory _name, string memory _symbol, address _account, uint256 _num)ERC20(_name,_symbol){
         owner = msg.sender;
         _mint(_account, _num * 10 ** decimals());
+        //发币事件
+        emit mintEvent(_account, _num);
     }
 
     //检查是否owner
