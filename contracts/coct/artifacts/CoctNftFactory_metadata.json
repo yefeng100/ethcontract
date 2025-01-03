@@ -44,6 +44,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "getAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -52,6 +65,51 @@
 					}
 				],
 				"name": "getMintPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNftAddressList",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_nftAddress",
+						"type": "address"
+					}
+				],
+				"name": "getNftName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getOwnerBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -133,11 +191,11 @@
 			]
 		},
 		"contracts/coct/coctNftFactory.sol": {
-			"keccak256": "0x621c766f9d2a3a1c4aee77e64588406718a2a4ef6a1e301b91cd4d3ad0edaf0d",
+			"keccak256": "0x2afebffa130b1d869127d7ab704dd6aeb6484bd3ebd2e4566d5a72313bcf1f95",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eeeda7db24043c7b16dfb9f82272c25caa8addc941962abdbb997dc18089260b",
-				"dweb:/ipfs/QmchTKRTkG7emXdBKNKm6SmhAimfSvoDK2ALXwQSdb12Z9"
+				"bzz-raw://88c353f953942f35eb59aeaa454316165066e189918c2804f72ebf3197f696af",
+				"dweb:/ipfs/Qmemgu6aoSfNFDjdPyj6qgnYzH7kPwvMuSnnzy2G8Yn8zM"
 			]
 		}
 	},
